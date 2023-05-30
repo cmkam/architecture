@@ -1,0 +1,79 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor user as u
+participant "FE - Experience API" as eapi
+participant "Process API" as papi
+database Database as db
+
+participant "Ext. System API" as sapi
+participant "Sanction Detection" as sd
+participant "Fault Detection" as fd
+participant "AML Detection" as aml
+
+
+
+u->eapi++ : propose
+eapi->papi++ : propose
+papi->sapi++ : fx quote
+return fx rate
+papi->db++ : check payment limit
+return result
+papi->db++ : store payment detail
+returnreturn id
+papi->fd++ : Fault Detection
+papi-->eapi-- : return id
+
+eapi->eapi : store id in session
+eapi-->u-- : return success status
+fd->sapi-- : Notify Backend system
+
+u->eapi++ : confirm
+eapi->eapi: get id from session
+eapi->papi++: confirm with ID
+papi->db++ : get payment detail
+db-->papi-- : return payment detail
+papi->db++ : check and confirm payment limit
+return result
+opt if payment limit pass
+papi->sd++ : Sanction Detection
+sd-->papi-- : return result
+opt if sanction detection passed
+papi->fd++ : online fault detection
+fd-->papi-- : return fault decision
+opt if online fault detection passed
+    papi->sapi++: book fx deal
+    return fx rate
+
+    opt if fx rate success
+    papi->sapi++: enact debit
+    sapi-->papi--: return
+
+
+    alt debit success
+    papi->sapi++: enact credit
+    sapi-->papi--: return
+
+    opt credit fail
+        papi->db++ : update record for manual operation
+        return done
+    end
+
+    else debit fail
+        papi->sapi++ : fx rollback
+        return success
+    end alt
+
+    papi->aml++ : AML feed
+    return return result
+
+    end opt
+end opt
+end opt
+end opt
+return success / fail
+return success / fail
+
+@enduml
