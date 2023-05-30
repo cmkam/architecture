@@ -22,19 +22,22 @@ return fx rate
 papi->db++ : check payment limit
 return result
 papi->db++ : store payment detail
-returnreturn id
-papi->fd++ : Fault Detection
-papi-->eapi-- : return id
+return transaction id
 
-eapi->eapi : store id in session
-eapi-->u-- : return success status
+papi->fd++ : Fault Detection
+papi-->eapi-- : transaction id
+
+eapi->eapi : store transaction id in session
+
+eapi-->u-- : success / fail
+
 fd->sapi-- : Notify Backend system
 
 u->eapi++ : confirm
-eapi->eapi: get id from session
-eapi->papi++: confirm with ID
-papi->db++ : get payment detail
-db-->papi-- : return payment detail
+eapi->eapi: get transaction id from session
+eapi->papi++: confirm with transaction id
+papi->db++ : get transaction detail by transaction id
+db-->papi-- : return transaction detail
 papi->db++ : check and confirm payment limit
 return result
 opt if payment limit pass
