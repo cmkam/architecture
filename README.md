@@ -1,9 +1,13 @@
 ﻿# Architecture
  
 ## Togaf Learning
-https://app.diagrams.net/#Hcmkam%2Farchitecture%2Fmain%2Fdrawio%2FTogaf%2FContinuum.drawio
+###Continum
+https://app.diagrams.net/#Hcmkam%2Farchitecture%2Fmain%2Fdrawio%2FTogaf%2Fcontinuum.drawio.png
+![Continuum drawio](https://github.com/cmkam/architecture/blob/main/drawio/Togaf/continuum.drawio.png)
+###ADM
+https://app.diagrams.net/#Hcmkam%2Farchitecture%2Fmain%2Fdrawio%2FTogaf%2Fadm.drawio.png
+![ADM drawio](https://github.com/cmkam/architecture/blob/main/drawio/Togaf/adm.drawio.png)
 
-![Continuum drawio](https://github.com/cmkam/architecture/assets/1748126/a3402f98-df88-4070-a270-eb70f6204bf2)
 
 ## Online Transaction Sequence Diagram
 ![Plant UML](https://github.com/cmkam/architecture/blob/main/seqDiagram/Payment.png)
