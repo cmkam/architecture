@@ -130,6 +130,11 @@
         <mxCell id="mi6nLPjGyi6vEEibymme-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mi6nLPjGyi6vEEibymme-3" target="mi6nLPjGyi6vEEibymme-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="mi6nLPjGyi6vEEibymme-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mi6nLPjGyi6vEEibymme-3" target="mi6nLPjGyi6vEEibymme-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mi6nLPjGyi6vEEibymme-3" value="&lt;a style=&quot;background-color: rgb(255, 255, 255); text-decoration-line: none; font-family: &amp;quot;Amazon Ember&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start;&quot; href=&quot;https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/aws-privatelink.html&quot;&gt;AWS PrivateLink&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="400" width="120" height="60" as="geometry" />
         </mxCell>
@@ -176,6 +181,9 @@
         </mxCell>
         <mxCell id="mi6nLPjGyi6vEEibymme-21" value="&lt;span style=&quot;color: rgb(22, 25, 31); font-family: &amp;quot;Amazon Ember&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Difficult to manage at scale&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mi6nLPjGyi6vEEibymme-24" value="&lt;span style=&quot;color: rgb(22, 25, 31); font-family: &amp;quot;Amazon Ember&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Interface endpoints&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
