@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.1" pages="2">
   <diagram name="S3" id="NUI4hM4tszNIx6ZBqlHi">
-    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,8 +98,8 @@
         <mxCell id="elhGvLy1oSMoWto0bze5-45" value="Retrieval Charge" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="90" y="555" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="elhGvLy1oSMoWto0bze5-46" value="Retrieval Charge" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="90" y="670" width="60" height="60" as="geometry" />
+        <mxCell id="elhGvLy1oSMoWto0bze5-46" value="Retrieval Charge" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="670" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="elhGvLy1oSMoWto0bze5-47" value="Retrieval Charge" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="90" y="770" width="60" height="60" as="geometry" />
@@ -107,8 +107,8 @@
         <mxCell id="elhGvLy1oSMoWto0bze5-48" value="Retrieval Charge" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="90" y="860" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0AG7UvMi_JRd-4SCO787-1" value="3-5 hr retrival" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="670" width="120" height="60" as="geometry" />
+        <mxCell id="0AG7UvMi_JRd-4SCO787-1" value="12-48 hr retrival" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0AG7UvMi_JRd-4SCO787-2" value="3 AZ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="190" width="120" height="60" as="geometry" />
@@ -133,6 +133,12 @@
         </mxCell>
         <mxCell id="0AG7UvMi_JRd-4SCO787-11" value="NAS v4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AG7UvMi_JRd-4SCO787-13" value="milliseconds retrival" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AG7UvMi_JRd-4SCO787-14" value="12 hr retrival" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="770" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
