@@ -337,7 +337,7 @@
           <mxGeometry x="-90" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x4cfrqWvNifw0V-jCvZV-26" value="EBS-Optimzied Instances" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x4cfrqWvNifw0V-jCvZV-27" value="Snapshort" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="130" width="120" height="60" as="geometry" />
