@@ -369,9 +369,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kbf2NheLQL4DpZ3DzO19-1" value="default" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0bDY6pHK7f60NX-sRXFF-60">
+        <mxCell id="kbf2NheLQL4DpZ3DzO19-1" value="default&lt;div&gt;Security group&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0bDY6pHK7f60NX-sRXFF-60">
           <mxGeometry x="0.7093" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kbf2NheLQL4DpZ3DzO19-2" value="max: 500" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0bDY6pHK7f60NX-sRXFF-60">
+          <mxGeometry x="0.8947" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0bDY6pHK7f60NX-sRXFF-6" value="VPC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
