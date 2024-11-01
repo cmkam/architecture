@@ -141,7 +141,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IHwlSBnPRZBjwduSqOJk" name="vpc">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -367,6 +367,11 @@
             <Array as="points">
               <mxPoint x="1500" y="135" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kbf2NheLQL4DpZ3DzO19-1" value="default" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0bDY6pHK7f60NX-sRXFF-60">
+          <mxGeometry x="0.7093" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0bDY6pHK7f60NX-sRXFF-6" value="VPC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
