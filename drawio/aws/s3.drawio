@@ -200,7 +200,7 @@
         <mxCell id="mi6nLPjGyi6vEEibymme-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="mi6nLPjGyi6vEEibymme-5" target="mi6nLPjGyi6vEEibymme-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mi6nLPjGyi6vEEibymme-5" value="&lt;a style=&quot;background-color: rgb(255, 255, 255); text-decoration-line: none; font-family: &amp;quot;Amazon Ember&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start;&quot; href=&quot;https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/software-vpn-to-aws-site-to-site-vpn.html&quot;&gt;Software VPN-to-AWS Site-to-Site VPN&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="mi6nLPjGyi6vEEibymme-5" value="&lt;a style=&quot;background-color: rgb(255, 255, 255); text-decoration-line: none; font-family: &amp;quot;Amazon Ember&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start;&quot; href=&quot;https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/software-vpn-to-aws-site-to-site-vpn.html&quot;&gt;Software VPN-to-AWS Site-to-Site VPN&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="240" y="645" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mi6nLPjGyi6vEEibymme-8" value="&lt;span style=&quot;color: rgb(22, 25, 31); font-family: &amp;quot;Amazon Ember&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;IPsec VPN&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -456,7 +456,7 @@
         <mxCell id="ZSEnw3eOuly0O_GajFQ5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZSEnw3eOuly0O_GajFQ5-1" target="ZSEnw3eOuly0O_GajFQ5-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZSEnw3eOuly0O_GajFQ5-1" value="Virtual private gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZSEnw3eOuly0O_GajFQ5-1" value="Virtual private gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="240" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZSEnw3eOuly0O_GajFQ5-2" value="AWS VPC to AWS VPC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -471,8 +471,8 @@
         <mxCell id="ZSEnw3eOuly0O_GajFQ5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZSEnw3eOuly0O_GajFQ5-5" target="ZSEnw3eOuly0O_GajFQ5-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZSEnw3eOuly0O_GajFQ5-5" value="&lt;span style=&quot;color: rgb(0, 7, 22); font-family: &amp;quot;Amazon Ember&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;AWS Transit Gateway&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="890" width="120" height="60" as="geometry" />
+        <mxCell id="ZSEnw3eOuly0O_GajFQ5-5" value="&lt;span style=&quot;color: rgb(0, 7, 22); font-family: &amp;quot;Amazon Ember&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start;&quot;&gt;AWS Transit Gateway&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZSEnw3eOuly0O_GajFQ5-7" value="AWS Direct Connect" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="840" width="120" height="60" as="geometry" />
@@ -490,13 +490,58 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZSEnw3eOuly0O_GajFQ5-14" value="Direct Connect Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1000" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZSEnw3eOuly0O_GajFQ5-15" value="Region A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="970" width="100" height="50" as="geometry" />
+        <mxCell id="ZSEnw3eOuly0O_GajFQ5-15" value="Region A" style="rounded=0;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1080" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ZSEnw3eOuly0O_GajFQ5-16" value="Region B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="1040" width="100" height="50" as="geometry" />
+        <mxCell id="ZSEnw3eOuly0O_GajFQ5-16" value="Region B" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1200" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSEnw3eOuly0O_GajFQ5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZSEnw3eOuly0O_GajFQ5-19" target="ZSEnw3eOuly0O_GajFQ5-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSEnw3eOuly0O_GajFQ5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZSEnw3eOuly0O_GajFQ5-19" target="ZSEnw3eOuly0O_GajFQ5-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSEnw3eOuly0O_GajFQ5-19" value="Customer Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSEnw3eOuly0O_GajFQ5-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZSEnw3eOuly0O_GajFQ5-21" target="ZSEnw3eOuly0O_GajFQ5-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="1150" />
+              <mxPoint x="360" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSEnw3eOuly0O_GajFQ5-21" value="Direct Connect 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSEnw3eOuly0O_GajFQ5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZSEnw3eOuly0O_GajFQ5-22" target="ZSEnw3eOuly0O_GajFQ5-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="1230" />
+              <mxPoint x="360" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSEnw3eOuly0O_GajFQ5-27" value="Private VIF" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZSEnw3eOuly0O_GajFQ5-25">
+          <mxGeometry x="0.5217" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSEnw3eOuly0O_GajFQ5-22" value="Direct Connect 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSEnw3eOuly0O_GajFQ5-29" value="Virtual private gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSEnw3eOuly0O_GajFQ5-32" value="&lt;span style=&quot;color: rgb(0, 7, 22); font-family: &amp;quot;Amazon Ember&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start;&quot;&gt;AWS Transit Gateway&lt;/span&gt;" style="rounded=0;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSEnw3eOuly0O_GajFQ5-33" value="&lt;span style=&quot;color: rgb(0, 7, 22); font-family: &amp;quot;Amazon Ember&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start;&quot;&gt;AWS Transit Gateway&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="1225" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
